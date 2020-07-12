@@ -17,11 +17,7 @@
     "experimentalDecorators": true,
     "jsx": "preserve",
     "baseUrl": "."
-    // "paths": {
-    //   "client/*": ["client/*"],
-    //   "config/*": ["config/*"]
-    // }
   },
-  "exclude": ["node_modules"],
+  "exclude": ["node_modules", "bouncecode.config.js", "env.config.js"],
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"]
 }

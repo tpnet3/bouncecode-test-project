@@ -5,7 +5,7 @@
  */
 
 import React from "react";
-import { Test } from "../client/components/Test";
+import { Test } from "test-module/client/components/Test";
 
 function IndexPage() {
   return <Test />;

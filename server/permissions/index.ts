@@ -23,13 +23,6 @@ const rules = {};
  *
  * @author BounceCode, Inc.
  */
-const ruleTree = {
-  Query: {
-    test: allow,
-  },
-  Mutation: {
-    test: allow,
-  },
-};
+const ruleTree = {};
 
-export default permissions;
+export default ruleTree;
